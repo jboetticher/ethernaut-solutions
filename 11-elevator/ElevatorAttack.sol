@@ -5,6 +5,11 @@ interface Building {
   function isLastFloor(uint) external returns (bool);
 }
 
+/*
+ * Used to solve level 11 (elevator) in Ethernaut. 
+ * Easy problem, and they gave a good hint. Just because it looks like it should be a
+ * view function doesn't mean it HAS to be a view function.
+*/
 contract ElevatorAttack is Building {
     uint topFloor = 10;
     bool visitedTopFloor = false;
