@@ -1,0 +1,2 @@
+This is a hard solution if you haven't used much web3.js, so I've just pasted what I did here:  
+`sendTransaction({ to: instance, from: player, data: web3.eth.abi.encodeFunctionCall({ name: 'pwn', type: 'function', inputs: [] }, []) })`
