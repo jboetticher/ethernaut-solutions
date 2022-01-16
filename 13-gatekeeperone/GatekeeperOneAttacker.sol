@@ -5,7 +5,7 @@ import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.0
 
 
 /*
- * Used to solve level 13 (reentrancy) in Ethernaut. 
+ * Used to solve level 13 (gatekeeperone) in Ethernaut. 
  * So far this is my least favorite one because of all the hardcoding that I resorted to.
  * That being said, I'm happy that I did it since it forced me to really dive into Remix's
  * debugger to look through the ethereum OPCODEs. 
