@@ -1,6 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
+/*
+ * Used to solve level 14 (gatekeepertwo) in Ethernaut. 
+ * This was cooler than the last gate keeper, but a little frustrating. Forced me to not
+ * hardcode, and instead calculate the solution to the 3rd gate. By chance I had overlooked 
+ * the second gate, since I usually just have the attack done in the constructor anyways, 
+ * but that's the secret if you didn't know.
+*/
 contract GatekeeperTwoAttack {
 
   bool public shouldWork;
